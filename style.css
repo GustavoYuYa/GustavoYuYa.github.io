@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(242, 236, 249);
+    font-family: Noto Sans, sans-serif;
+    margin-left: 10px;
+}
+
+header {
+    text-align: center;
+    color: rgb(89, 45, 134);
+    font-weight: bold;
+    font-family: URW Chancery L, cursive;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: rgb(128, 64, 191);
+}
+
+#contact-info {
+    color:  rgb(128, 64, 191);
+}
+
+.links {
+    color: 	rgb(0, 0, 205);
+    text-decoration: underline;
+}
+
+.links:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-family: 'Original Surfer', cursive;
+    color: rgb(89, 45, 134);
+    background-color: rgb(255, 218, 185);
+}
+
+.additional-links {
+    color: rgb(0, 0, 205);
+}
+
+#dt_graduation {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#footer {
+    font-style: italic;
+    font-weight: bold;
+    font-family: URW Chancery L, cursive;
+}
+
+img[src="./figs/foto_perfil.jpeg"] {
+    border: 2px solid rgb(0,0,0);
+    border-radius: 50%;
+}
+
+img[src="./figs/ods.png"] {
+    border: 2px solid rgb(0,0,0);
+}
